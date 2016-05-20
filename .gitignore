@@ -1,0 +1,10 @@
+#Ignored files 
+
+**/target
+**/.project
+**/.settings
+**/.classpath
+**/bin/
+**/test-output
+
+

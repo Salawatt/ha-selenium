@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="seleniumSuite" verbose="1" >
+  <listeners>
+    <listener class-name="org.salawat.samples.homeaway.listeners.TestListener" />
+    </listeners>
+  <test name="StoreTest">
+    <classes>
+      <class name="org.salawat.samples.homeaway.testcases.StoreTest"/>
+    </classes>
+  </test>
+</suite>
